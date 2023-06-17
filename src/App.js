@@ -21,7 +21,7 @@ function App() {
       <Switch {...label} defaultChecked  onChange={toggler}/>
       <p>Monthly</p>
 
-    7    </div>
+        </div>
     <div className="priceDiv">
       <Price 
       cardID='basicMaster'
@@ -31,6 +31,9 @@ function App() {
       noUsers="2 Users Allowed"
       gigSize='Send up to 3 GB'
       btnID="basicMasterBTN"
+      titlePara="titlePara"
+      innerPara="innerPara"
+      
       />
        <Price 
       cardID='professional'
@@ -40,6 +43,7 @@ function App() {
       noUsers="5 Users Allowed"
       gigSize='Send up to 10 GB'
       btnID="professionalBTN"
+      titlePara="profTitlePara"
       />
        <Price 
       cardID='basicMaster'
@@ -49,6 +53,8 @@ function App() {
       noUsers="10 Users Allowed"
       gigSize='Send up to 20 GB'
       btnID="basicMasterBTN"
+      titlePara="titlePara"
+      innerPara="innerPara"
       />
     </div>
     </div>

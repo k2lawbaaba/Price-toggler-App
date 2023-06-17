@@ -9,14 +9,15 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .App{
-    margin: 5rem 15rem;
+    margin: 5rem 12rem;
     box-shadow: 0 5px 13px rgba(78, 75, 75, 0.3);
     background-color: hsl(240, 78%, 98%);
-    background-image: url('./images/bg-top.svg');
-    background-position:30rem;
+    background-image: url('./images/bg-bottom.svg'), url('./images/bg-top.svg');
     background-repeat: no-repeat;
     padding-bottom: 4rem;
     padding-top: 2rem;
+    background-position: left bottom, right top;
+    background-size: 12rem auto;
 }
 .priceHeader{
     margin-bottom: 20px
@@ -33,11 +34,9 @@ body{
     display: inline-block;
 }
 .price{
-padding: 4rem auto;
+width: 14rem;
+height: 23rem ;
 box-shadow: 0 5px 13px rgba(78, 75, 75, 0.3);
-
-/* border: 1px solid; */
-/* margin-top: 2rem; */
 }
 .title{
     font-size: 12px;
@@ -46,31 +45,42 @@ box-shadow: 0 5px 13px rgba(78, 75, 75, 0.3);
 #basicMaster{
  background-color:hsl(240, 78%, 98%) ;
  /* height: 21rem; */
+ margin-top: 15px;
 
 }
-#basicMaster p{
+.titlePara{
     color: grey;
-    margin: 1rem 2.4rem;
+    margin: .6rem 0;
+    padding-top: 32px;
+}
+.innerPara{
+    color: grey;
+    margin: 1rem 0;
 }
 #professional{
-    height: 21rem;
+    height: 25rem;
     background-color: hsl(237, 63%, 64%);
     color: white;
-    /* margin:-15px 0; */
+    border-radius: 8px;
+
+
+}
+.profTitlePara{
+    padding-top: 35px;
+
 }
 #professional p{
-    margin: 1rem 2.4rem;
+    margin: 1rem 0;
 }
 hr{
     margin: auto 10px;
     opacity: 0.3;
 }
 .price button{
-    margin: 20px 0 ;
+    margin: 30px 0  50px;
         -webkit-border-radius: 5;
         -moz-border-radius: 5;
         border-radius: 5px;
-        /* font-family: Georgia; */
         color: #ffffff;
         font-size: 13px;
         background: hsl(237, 63%, 64%);

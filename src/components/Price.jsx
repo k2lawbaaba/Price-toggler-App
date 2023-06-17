@@ -2,15 +2,15 @@ import React from "react";
 
 const Price= (prop)=>{
     return<div className="price" id={prop.cardID}>
-    <div id={prop.cardID}>
-        <p className="title">{prop.title}</p>
+    <div id={prop.cardI}>
+        <p className={prop.titlePara}>{prop.title}</p>
         <h1>{prop.price}</h1>
         <hr/>
-        <p className="innerPara">{prop.size}</p>
+        <p className={prop.innerPara}>{prop.size}</p>
         <hr />
-        <p className="innerPara">{prop.noUsers}</p>
+        <p className={prop.innerPara}>{prop.noUsers}</p>
         <hr />
-        <p className="innerPara">{prop.gigSize}</p>
+        <p className={prop.innerPara}>{prop.gigSize}</p>
         <hr />
         <button onClick={prop.click} id={prop.btnID}>LEARN MORE</button>
         </div>
