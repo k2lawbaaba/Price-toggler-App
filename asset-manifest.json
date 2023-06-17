@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Price-toggler-App/static/css/main.8ad15d9d.css",
+    "main.js": "/Price-toggler-App/static/js/main.58c7b999.js",
+    "static/media/bg-top.svg": "/Price-toggler-App/static/media/bg-top.4980c1fd1180f71d5782.svg",
+    "index.html": "/Price-toggler-App/index.html",
+    "main.8ad15d9d.css.map": "/Price-toggler-App/static/css/main.8ad15d9d.css.map",
+    "main.58c7b999.js.map": "/Price-toggler-App/static/js/main.58c7b999.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ad15d9d.css",
+    "static/js/main.58c7b999.js"
+  ]
+}
