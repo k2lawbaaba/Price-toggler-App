@@ -9,7 +9,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .App{
-    margin: 5rem 12rem;
+    margin: 5rem 10vmax;
     box-shadow: 0 5px 13px rgba(78, 75, 75, 0.3);
     background-color: hsl(240, 78%, 98%);
     background-image: url('./images/bg-bottom.svg'), url('./images/bg-top.svg');
@@ -34,8 +34,8 @@ body{
     display: inline-block;
 }
 .price{
-width: 14rem;
-height: 23rem ;
+width: 224px;
+height: 368px;
 box-shadow: 0 5px 13px rgba(78, 75, 75, 0.3);
 }
 .title{
@@ -45,7 +45,7 @@ box-shadow: 0 5px 13px rgba(78, 75, 75, 0.3);
 #basicMaster{
  background-color:hsl(240, 78%, 98%) ;
  /* height: 21rem; */
- margin-top: 15px;
+ margin-top: 2rem;
 
 }
 .titlePara{
@@ -62,6 +62,7 @@ box-shadow: 0 5px 13px rgba(78, 75, 75, 0.3);
     background-color: hsl(237, 63%, 64%);
     color: white;
     border-radius: 8px;
+    margin-top: 2rem;
 
 
 }
